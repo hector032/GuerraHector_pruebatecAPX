@@ -37,7 +37,8 @@ La salida esperada refleja la misma información proporcionada como entrada. Est
 
 5. Confirmamos que da error porque el nuip es Unique y no permite registros que se repitan con el mismo nuip.
 
-
+## Importante
+* Estamos trabajando sobre el DTO WIKJC456,  Libreria WIKJR456, y transaction WIKJT456
 
 ## Configuración y Ejecución
 
