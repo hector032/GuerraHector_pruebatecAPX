@@ -20,22 +20,20 @@ La salida esperada refleja la misma información proporcionada como entrada. Est
 ## Pruebas y Validación
 
 1. Verificamos en el header del postman, el campo logical-transaction-code = WIKJT456.
-
+  ![1](https://github.com/hector032/GuerraHector_pruebatecAPX/blob/main/verificaciones/1.jpeg)
 
 
 2. Insertamos valores a nuestra tabla con el id=1 y el nuip=1.
-
+   ![2](https://github.com/hector032/GuerraHector_pruebatecAPX/blob/main/verificaciones/2.jpeg)
 
 
 3. Revisamos que se haya agregado en la base de datos (DBeaver).
+  ![3](https://github.com/hector032/GuerraHector_pruebatecAPX/blob/main/verificaciones/3.jpeg)
 
 
+4. Intentamos insertar nuevos valores pero con el mismo nuip del registro anterior nuip=1 y confirmamos que da error porque el nuip es Unique y no permite registros que se repitan con el mismo nuip
+  ![4](https://github.com/hector032/GuerraHector_pruebatecAPX/blob/main/verificaciones/4.jpeg)
 
-4. Intentamos insertar nuevos valores pero con el mismo nuip del registro anterior nuip=1.
-
-
-
-5. Confirmamos que da error porque el nuip es Unique y no permite registros que se repitan con el mismo nuip.
 
 ## Importante
 * Estamos trabajando sobre el DTO WIKJC456,  Libreria WIKJR456, y transaction WIKJT456
