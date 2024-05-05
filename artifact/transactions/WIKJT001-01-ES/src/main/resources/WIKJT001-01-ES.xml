@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="WIKJT001" application="WIKJ" version="01" country="ES" language="ES">
+	<paramsIn>
+		<dto order="1" name="customerIn" mandatory="0" package="com.bbva.wikj.dto.customer.CustomerIn" artifactId="WIKJC001">
+			<parameter order="1" name="id" mandatory="1" type="String" size="9"/>
+			<parameter order="2" name="customerId" mandatory="0" type="String" size="500"/>
+			<parameter order="3" name="info" mandatory="0" type="String" size="500"/>
+		</dto>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="customerOut" mandatory="0" package="com.bbva.wikj.dto.customer.CustomerOut" artifactId="WIKJC001">
+			<parameter order="1" name="id" mandatory="0" type="String" size="9"/>
+			<parameter order="2" name="customerId" mandatory="0" type="String" size="500"/>
+			<parameter order="3" name="info" mandatory="0" type="String" size="500"/>
+		</dto>
+	</paramsOut>
+	<description>trx</description>
+</transaction>
